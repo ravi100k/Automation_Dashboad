@@ -1,0 +1,26 @@
+.demo-card-square.mdl-card {
+  margin: auto;
+  width: 250px;
+  height: 200px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  text-align: center;
+  background: url('/images/background.jpg') bottom right 15% no-repeat #46B6AC;
+  }
+.card_instance{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px
+}
+.instance_title{
+  text-align: center;
+}
+.instance_body > button {
+  text-align: center;
+  // background: url('/images/background_1.jpg');
+}
+.loader_image{
+  display : grid;
+  justify-content: center;
+}
